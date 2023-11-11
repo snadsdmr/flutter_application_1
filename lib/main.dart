@@ -28,8 +28,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   final TextEditingController _genreController = TextEditingController();
   final SpotifyService _spotifyService = SpotifyService(
-    clientId: '598b7a101a9b4aabbb368ee7c090890a',
-    clientSecret: 'd418ecc29a0f4c44844d4a7cd7ceb59a',
+    clientId: '',
+    clientSecret: '',
   );
 
   List<String> _recommendationResults = [];
